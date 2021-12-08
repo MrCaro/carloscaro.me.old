@@ -1,0 +1,7 @@
+/* ./src/main.css */
+
+@tailwind base;
+@import '/css/base.css';
+@tailwind components;
+@import '/css/components.css';
+@tailwind utilities;
