@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavBar />
-    <main class="grid gap-y-96 md:gap-y-192">
+    <main class="grid gap-y-96 md:gap-y-192 overflow-x-hidden">
       <MainHero />
       <About />
       <Work />
@@ -10,14 +10,16 @@
       <Footer />
     </main>
     <!-- <cursor-fx  /> -->
-    <custom-cursor
-      :targets="['img', 'a', 'button', 'your-hover-class']"
-      :circleColor="'#b928e5'"
-      :circleColorHover="'#2f2f2f'"
-      :dotColor="'#b928e5'"
-      :dotColorHover="'#2f2f2f'"
-      :hoverSize="1.8"
-    ></custom-cursor>
+    <div class="invisible md:visible">
+      <custom-cursor
+        :targets="['img', 'a', 'button', 'your-hover-class']"
+        :circleColor="'#b928e5'"
+        :circleColorHover="'#2f2f2f'"
+        :dotColor="'#b928e5'"
+        :dotColorHover="'#2f2f2f'"
+        :hoverSize="1.8"
+      ></custom-cursor>
+    </div>
   </div>
 </template>
 
@@ -52,37 +54,42 @@ export default {
   },
   mounted: function(){
         //glass boxes
-        let glass1 = document.querySelector('#GlassBox1');
-        ScrollTrigger.matchMedia({
-          "(max-width: 768px)": function() {
-            gsap.to(glass1,{
-              scrollTrigger: {
-                  trigger: "#GlassBox1",
-                  start: "top center",
-                  end: "bottom center",
-                  scrub: 2,
-                  // markers: true,
-              },
-              x: '100%', 
-              duration: 3,
-            })}
-        })
+        //animation a little bit buggy with the glass effect, hidding element on mobile in the meantime
+        // let glass1 = document.querySelector('#GlassBox1');
+        // ScrollTrigger.matchMedia({
+        //   "(max-width: 768px)": function() {
+        //     gsap.to(glass1,{
+        //       scrollTrigger: {
+        //           trigger: "#GlassBox1",
+        //           start: "top center",
+        //           end: "bottom center",
+        //           scrub: 2,
+        //           // markers: true,
+        //       },
+        //       x: '100%', 
+        //       duration: 3,
+        //     })}
+        // })
         //headshots 
         let headshots = document.getElementsByClassName('headshot');
         console.log(headshots)
         let images = [].map.call(headshots, headshot => {
-          gsap.to(headshot, 
-              {
-                  scrollTrigger: {
-                      trigger: ".headshot",
-                      start: "top center",
-                      end: "bottom center",
-                      scrub: 2,
-                      // markers: true,
-                  },
-                  y: 50, 
-                  duration: 3,
-              })
+          ScrollTrigger.matchMedia({
+            "(min-width: 768px)" : function() {
+              gsap.to(headshot, 
+                  {
+                      scrollTrigger: {
+                          trigger: ".headshot",
+                          start: "top center",
+                          end: "bottom center",
+                          scrub: 2,
+                          // markers: true,
+                      },
+                      y: 50, 
+                      duration: 3,
+                  })
+            }
+          })
         });
         console.log(images)
     }

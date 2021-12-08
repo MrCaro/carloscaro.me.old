@@ -37,7 +37,7 @@
                         class="relative h-[372px] w-auto"
                         style="filter: drop-shadow(11px 11px 10px #00000029);"
                     >
-                    <div id="GlassBox1" class="absolute left-[-75%] top-[9rem] flex justify-center items-center">
+                    <div id="GlassBox1" class="invisible md:visible absolute left-[-75%] top-[9rem] flex justify-center items-center">
                         <div class="absolute h-full w-full filter blur-[0.5px] rounded-xl" style="background: linear-gradient(135deg, #ffffff, #ababab40);"></div>
                         <div class="relative h-auto w-auto p-16 flex items-center gap-16">
                             <div>

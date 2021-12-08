@@ -10,9 +10,8 @@
             </p>
             <div class="w-[fit-content] m-auto mt-52">
                 <MainCTA 
-                    url="/" 
-                    title="Let's talk" 
-                    target=""
+                    url="mailto:carocarlosj@gmail.com" 
+                    title="Let's talk"
                 />
             </div>
         </div>

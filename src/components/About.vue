@@ -1,7 +1,7 @@
 <template>
     <section id="about" class="">
         <div class="container grid grid-col-1 md:grid-cols-2 h-full px-16 gap-y-48">
-            <div class="relative flex flex-col items-center justify-center">
+            <div class="relative flex flex-col items-center justify-center order-2 md:order-1">
                 <div class="relative">
                     <img 
                         :src="`${publicPath}icons/squaredot-pattern.svg`" 
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col justify-center gap-y-20">
+            <div class="flex flex-col justify-center gap-y-20 order-1 md:order-2">
                 <h2 class="font-univia text-40 text-gray-dark leading-tight">
                     About
                     <span 

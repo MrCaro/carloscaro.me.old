@@ -26,9 +26,8 @@
                         </ul>
                     </div>
                     <MainCTA 
-                        url="/" 
-                        title="contact me" 
-                        target=""
+                        url="mailto:carocarlosj@gmail.com" 
+                        title="contact me"
                     />
                 </div>
             </nav>
