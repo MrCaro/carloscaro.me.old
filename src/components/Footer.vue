@@ -1,8 +1,8 @@
 <template>
     <section class="bg-gray-light py-44">
         <div class="container flex h-full px-16 justify-between">
-            <p class="font-roboto text-12 font-400 text-gray-default">&copy; Charlie | Web & VR Developer</p>
-            <div class="flex gap-x-16">
+            <p class="font-roboto text-12 font-400 text-gray-default">&copy; Carlos 'Charlie' Caro | Web & VR Developer</p>
+            <div class="flex gap-x-16 items-center">
                 <a 
                     href="https://github.com/MrCaro"
                     target="_blank"

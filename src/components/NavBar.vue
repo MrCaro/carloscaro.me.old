@@ -8,7 +8,7 @@
                         href="/"
                         class="font-univia text-gray-dark text-20"
                     >
-                        Carlos Caro
+                        Carlos 'Charlie' Caro
                     </a>
                     <div class="hidden md:block"> 
                         <ul class="flex flex-row gap-x-72">

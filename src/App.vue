@@ -53,23 +53,6 @@ export default {
     CustomCursor
   },
   mounted: function(){
-        //glass boxes
-        //animation a little bit buggy with the glass effect, hidding element on mobile in the meantime
-        // let glass1 = document.querySelector('#GlassBox1');
-        // ScrollTrigger.matchMedia({
-        //   "(max-width: 768px)": function() {
-        //     gsap.to(glass1,{
-        //       scrollTrigger: {
-        //           trigger: "#GlassBox1",
-        //           start: "top center",
-        //           end: "bottom center",
-        //           scrub: 2,
-        //           // markers: true,
-        //       },
-        //       x: '100%', 
-        //       duration: 3,
-        //     })}
-        // })
         //headshots 
         let headshots = document.getElementsByClassName('headshot');
         console.log(headshots)

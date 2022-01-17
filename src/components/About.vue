@@ -44,16 +44,10 @@
                     </span>
                 </h2>
                 <p class="font-roboto font-400 text-gray-default mt-32">
-                    My name is Carlos but my friends call me Charlie. I'm a Web Dev from Caracas, Venezuela currently living in the Sunshine State and where dreams do come true, you guessed it, that would be Orlando, FL. While in SouthFlo I'm pursuing my MS in Computer Science
-                    at UCF. I work as a Web Developer for a Digital shop at Philly called, <a href="https://tasty.studio/" target="_blank" class="underline transition duration-500 ease-in-out hover:text-grape">Tasty Studio LLC 👅 </a>
+                    Hi you can call me Charlie and I'm a Web Developer at <a href="https://tasty.studio/" target="_blank" class="underline transition duration-500 ease-in-out hover:text-grape">Tasty Studio 👅</a> and currently pursuing my Master's Degree in Computer Science at the University of Central Florida. I've been coding for almost 3 years now and I love it. Passionate about anything related to the Web and Computer Science, I am always looking to learn new things. I'm also a foodie!
                 </p>
                 <p class="font-roboto font-400 text-gray-default">
-                    As a passionate developer I'm always in the look to improve my skills and learn new skills. Which leaded me to dig into
-                    VR dev. At the moment I've had experience with Unity + SteamVR (I'll add some cool projects on this site soon 🤞). My main goal is to create custom VR applications and add 3D components
-                    to web projects at Tasty Studio.
-                </p>
-                <p class="font-roboto font-400 text-gray-default">
-                    While not coding or geeking out about tech you can find me working out or hanging out with friends. 
+                    Right now I'm looking to show off my skills by building custom VR applications using the Steam VR SDK. Projects coming soon to this site 🤞. While not coding or geeking out about tech you can find me working out or hanging out with friends. 
                 </p>
             </div>    
         </div>
@@ -66,6 +60,6 @@ export default {
         return {
             publicPath: process.env.BASE_URL
         }
-    },
+    }
 }
 </script>

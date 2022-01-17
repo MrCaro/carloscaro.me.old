@@ -1,9 +1,9 @@
-* {
-    @media (min-width: 768px) {
-        cursor: none;
-    }
-}
-
 html {
     scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+    * {
+        cursor: none;
+    }
 }

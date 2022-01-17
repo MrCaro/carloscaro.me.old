@@ -1,6 +1,6 @@
 <template>
     <section class="bg-gray-light pt-52 pb-60">
-        <div class="container grid grid-col-1 md:grid-cols-2 h-full px-16 gap-y-48">
+        <div class="relative container grid grid-col-1 md:grid-cols-2 h-full px-16 gap-y-48">
             <div class="flex flex-col justify-center gap-y-20">
                 <h1 class="font-univia text-60 text-gray-dark leading-tight">
                     Web & VR <br>
@@ -31,8 +31,8 @@
                         class="absolute bottom-[-1rem] left-[-3rem] "
                     >
                     <img 
-                        :src="`${publicPath}img/charlie-headshot-hero@2x.png`" 
-                        :srcset="`${publicPath}img/charlie-headshot-hero@2x.png`" 
+                        :src="`${publicPath}img/hero-banner-computer@2x.png`" 
+                        :srcset="`${publicPath}img/hero-banner-computer@2x.png`" 
                         alt="Charlie headshot"
                         class="relative h-[372px] w-auto"
                         style="filter: drop-shadow(11px 11px 10px #00000029);"
@@ -47,13 +47,13 @@
                             </div>
                             <div>
                                 <p class="font-univia text-14 text-gray-dark leading-tight">
-                                    Looking for?
+                                    Did you know?
                                 </p> 
                                 <p 
                                     class="font-roboto font-400 text-gray-default text-12 mt-6"
                                     style="width: 21ch"
                                 >
-                                    Custom website / E-commerce or UI design.
+                                    The first Gigabyte Drive cost $40K. It was released in 1980.
                                 </p>
                             </div>
                         </div>
@@ -68,6 +68,7 @@
                     </div>
                 </div>
             </div>
+            <div class="absolute h-192 border-r-2 border-gray-[#848b9e] right-0 md:right-[unset] bottom-0 md:left-0 mr-60 md:mr-0 mb-[-180px] md:ml-160"></div>
         </div>
     </section>
 </template>
