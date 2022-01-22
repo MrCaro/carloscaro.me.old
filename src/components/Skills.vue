@@ -3,10 +3,10 @@
         <div class="relative container grid grid-col-1 md:grid-cols-2 h-full px-16 gap-y-48">
             <div class="flex flex-col gap-y-20">
                 <h2 class="font-univia text-40 text-gray-dark leading-tight">
-                    Some tools that I've used for professional or academic purposes.
+                    Tech stack that I've used for professional or academic projects.
                 </h2>
                 <p class="font-roboto font-400 text-gray-default">
-                    *whenever the projects section is up each one of them will list some of the skills within this section.
+                    *for specifics you can refer to highlighted projects and check the tech stack used.
                 </p>
             </div>
             <div>

@@ -27,6 +27,7 @@
 // import { CursorFx } from '@luxdamore/vue-cursor-fx';
 import gsap  from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+
 gsap.registerPlugin(ScrollTrigger);
 
 import NavBar from "@/components/NavBar.vue";

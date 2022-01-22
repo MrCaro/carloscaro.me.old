@@ -44,10 +44,22 @@
                     </span>
                 </h2>
                 <p class="font-roboto font-400 text-gray-default mt-32">
-                    Hi you can call me Charlie and I'm a Web Developer at <a href="https://tasty.studio/" target="_blank" class="underline transition duration-500 ease-in-out hover:text-grape">Tasty Studio 👅</a> and currently pursuing my Master's Degree in Computer Science at the University of Central Florida. I've been coding for almost 3 years now and I love it. Passionate about anything related to the Web and Computer Science, I am always looking to learn new things. I'm also a foodie!
+                    Hi I'm Charlie and I'm a Web Developer at <a href="https://tasty.studio/" target="_blank" class="underline transition duration-500 ease-in-out hover:text-grape">Tasty Studio 👅</a>. Currently I'm pursuing my Master's Degree in Computer Science with a specialization in MX Reality at UCF, Orlando FL.
                 </p>
                 <p class="font-roboto font-400 text-gray-default">
-                    Right now I'm looking to show off my skills by building custom VR applications using the Steam VR SDK. Projects coming soon to this site 🤞. While not coding or geeking out about tech you can find me working out or hanging out with friends. 
+                    My main goal as a developer is to combine my Front End Engineer and 3D skills to craft digital ideas that can not only elevate user experience but 
+                    ultimately creating robust and user friendly tools. As an individual I would describe myself as a sapien that is constantly upgrading themself to 
+                    be the best possible version of him. But hey, life is too short, therefore I don't (try to at least haha) not taking it too serious and enjoy each day
+                    as it is, a gift!
+                </p>
+                <p class="font-roboto font-400 text-gray-default">
+                    <span class="text-gray-default">Hometown /</span> Caracas, Venezuela
+                    <br>
+                    <span class="text-gray-default">Colors / </span><span class="inline-block h-16 w-16 rounded-full bg-grape"></span> <span class="inline-block h-16 w-16 rounded-full -ml-8 bg-[#F202F2]"></span>
+                    <br>
+                    <span class="text-gray-default">Teams /</span> Chelsea FC ⚽️  NETS 🏀  Marlins & Red Sox ⚾️
+                    <br>
+                    <span class="text-gray-default">Hobbies /</span> 🎮 🏋️‍♀️ 🏃‍♂️ ⚽️ 📚
                 </p>
             </div>    
         </div>
