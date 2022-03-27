@@ -39,8 +39,6 @@ import Collab from "@/components/Collab.vue";
 import Footer from "@/components/Footer.vue";
 import CustomCursor from "@/components/CustomCursor.vue";
 
-
-
 export default {
   components: {
     // 'cursor-fx': CursorFx,
