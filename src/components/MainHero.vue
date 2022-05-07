@@ -8,7 +8,7 @@
     <div
       class="relative container grid grid-col-1 md:grid-cols-2 h-full px-16 gap-y-48"
     >
-      <div class="flex flex-col justify-center gap-y-20">
+      <div class="flex flex-col justify-center">
         <h1 class="font-univia text-60 text-gray-dark leading-tight">
           Front-End <br />
           <span
@@ -18,8 +18,12 @@
             Developer.
           </span>
         </h1>
-        <p class="font-roboto font-400 text-gray-default">
+        <p class="font-roboto font-400 text-gray-default my-20">
           Crafting digital experiences one key stroke at a time.
+        </p>
+        <p class="font-roboto font-400 text-gray-default text-12 m-0">
+          📍 Orlando, FL <br />
+          💻 Web Developer at Tasty Studio
         </p>
       </div>
       <div class="relative flex flex-col items-center justify-center">

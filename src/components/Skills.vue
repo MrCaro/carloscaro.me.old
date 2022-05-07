@@ -9,7 +9,7 @@
         </h2>
         <p class="font-roboto font-400 text-gray-default text-14">
           For specifics you can refer to highlighted projects and check the tech
-          stack 🪄
+          stack.
         </p>
       </div>
       <div>

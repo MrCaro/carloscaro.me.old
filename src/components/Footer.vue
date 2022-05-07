@@ -1,8 +1,8 @@
 <template>
   <section class="bg-gray-light py-44">
-    <div class="container flex h-full px-16 justify-between">
+    <div class="container flex h-auto px-16 justify-between items-center">
       <p class="font-roboto text-12 font-400 text-gray-default">
-        &copy; Carlos 'Charlie' Caro | Front-End Developer
+        &copy; Carlos 'Charlie' Caro | Front-End Developer 2022
       </p>
       <div class="flex gap-x-16 items-center">
         <a href="https://github.com/MrCaro" target="_blank">
@@ -20,6 +20,11 @@
           />
         </a>
       </div>
+    </div>
+    <div class="container px-16">
+      <small class="font-roboto text-10 font-400 text-gray-default">
+        Made with 💜
+      </small>
     </div>
   </section>
 </template>
