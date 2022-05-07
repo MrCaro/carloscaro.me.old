@@ -106,7 +106,7 @@
           class="flex flex-col gap-8 w-[fit-content] h-[fit-content] bg-white py-32 px-64 rounded"
         >
           <DialogTitle class="font-roboto font-400 text-gray-default">
-            video coming Soon 🎥
+            "cool" video coming soon? 🎥
           </DialogTitle>
           <DialogDescription>
             <!-- <video
