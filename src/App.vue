@@ -25,7 +25,7 @@
 
 <script type="text/javascript">
 // import { CursorFx } from '@luxdamore/vue-cursor-fx';
-import gsap  from "gsap";
+import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -49,31 +49,30 @@ export default {
     Skills,
     Collab,
     Footer,
-    CustomCursor
+    CustomCursor,
   },
-  mounted: function(){
-        //headshots 
-        let headshots = document.getElementsByClassName('headshot');
-        console.log(headshots)
-        let images = [].map.call(headshots, headshot => {
-          ScrollTrigger.matchMedia({
-            "(min-width: 768px)" : function() {
-              gsap.to(headshot, 
-                  {
-                      scrollTrigger: {
-                          trigger: ".headshot",
-                          start: "top center",
-                          end: "bottom center",
-                          scrub: 2,
-                          // markers: true,
-                      },
-                      y: 50, 
-                      duration: 3,
-                  })
-            }
-          })
-        });
-        console.log(images)
-    }
+  mounted: function() {
+    //headshots
+    let headshots = document.getElementsByClassName("headshot");
+    console.log(headshots);
+    let images = [].map.call(headshots, (headshot) => {
+      ScrollTrigger.matchMedia({
+        "(min-width: 768px)": function() {
+          gsap.to(headshot, {
+            scrollTrigger: {
+              trigger: ".headshot",
+              start: "top center",
+              end: "bottom center",
+              scrub: 2,
+              // markers: true,
+            },
+            y: 50,
+            duration: 3,
+          });
+        },
+      });
+    });
+    console.log(images);
+  },
 };
 </script>
