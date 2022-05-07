@@ -1,7 +1,7 @@
 <template>
   <section class="">
     <div
-      class="container grid grid-col-1 h-full px-16 gap-y-20 text-center mt-64"
+      class="container grid grid-col-1 h-full px-16 gap-y-20 text-center my-32 md:my-64"
     >
       <h2 class="font-univia text-40 text-gray-dark leading-tight">
         👨‍💻 Collab Maybe?

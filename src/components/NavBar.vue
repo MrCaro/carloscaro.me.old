@@ -4,7 +4,16 @@
     <div class="container px-16">
       <nav>
         <div class="flex justify-between items-center">
-          <a href="/" class="font-univia text-gray-dark text-20">
+          <a
+            href="/"
+            class="font-univia text-gray-default md:text-14 flex gap-x-8 items-center"
+          >
+            <img
+              class="w-20"
+              :src="`${publicPath}icons/cc-logo.svg`"
+              :srcset="`${publicPath}icons/cc-logo.svg`"
+              alt=""
+            />
             Carlos 'Charlie' Caro
           </a>
           <div class="hidden md:block">
@@ -79,6 +88,7 @@ export default {
     ];
     return {
       navigation_items,
+      publicPath: process.env.BASE_URL,
     };
   },
 };

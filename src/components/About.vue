@@ -18,8 +18,8 @@
             class="absolute bottom-[-1rem] right-[-3rem] "
           />
           <img
-            :src="`${publicPath}img/charlie-headshot-about@2x.png`"
-            :srcset="`${publicPath}img/charlie-headshot-about@2x.png`"
+            :src="`${publicPath}img/charlie-header-bw.png`"
+            :srcset="`${publicPath}img/charlie-header-bw.png`"
             alt="Charlie headshot"
             class="headshot relative h-[372px] w-auto"
             style="filter: drop-shadow(11px 11px 10px #00000029);"

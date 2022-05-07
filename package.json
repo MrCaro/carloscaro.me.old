@@ -9,7 +9,7 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
-    "@yarlessui/vue": "^1.4.1",
+    "@headlessui/vue": "^1.6.1",
     "autoprefixer": "^9",
     "core-js": "^3.6.5",
     "gsap": "^3.8.0",
