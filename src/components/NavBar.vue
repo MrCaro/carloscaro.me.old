@@ -31,7 +31,11 @@
               </li>
             </ul>
           </div>
-          <MainCTA url="mailto:carocarlosj@gmail.com" title="contact charlie" />
+          <MainCTA
+            url="mailto:carocarlosj@gmail.com"
+            target="_blank"
+            title="contact charlie"
+          />
         </div>
       </nav>
     </div>

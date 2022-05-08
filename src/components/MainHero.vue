@@ -10,9 +10,12 @@
     >
       <div class="flex flex-col justify-center">
         <h1 class="font-univia text-60 text-gray-dark leading-tight">
-          Front-End <br />
+          <span class="inline-block hero--title-top">
+            Front-End
+          </span>
+          <br />
           <span
-            class="text-gray-light"
+            class="text-gray-light inline-block hero--title-bottom"
             style="text-shadow: -1px -1px 0 #b928e5, 1px -1px 0 #b928e5, -1px 1px 0 #b928e5, 1px 1px 0 #b928e5;"
           >
             Developer.
@@ -44,7 +47,7 @@
             :src="`${publicPath}img/hero-banner-computer@2x.png`"
             :srcset="`${publicPath}img/hero-banner-computer@2x.png`"
             alt="Charlie headshot"
-            class="relative h-[372px] w-auto z-1"
+            class="hero--img relative h-[372px] w-auto z-1"
             style="filter: drop-shadow(11px 11px 10px #00000029);"
           />
           <div
@@ -99,8 +102,28 @@
         </div>
       </div>
       <div
-        class="absolute h-192 border-r-2 border-gray-[#848b9e] right-0 md:right-[unset] bottom-0 md:left-0 mr-60 md:mr-0 mb-[-180px] md:ml-160"
+        class="absolute h-192 border-l-2 border-gray-[#848b9e] right-0 md:right-[unset] bottom-0 md:left-0 mr-60 md:mr-0 mb-[-180px] md:ml-160"
       ></div>
+      <!-- <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="#848b9e"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute right-0 md:right-[unset] bottom-0 md:left-0 mr-60 md:mr-0 mb-[-180px] md:ml-160 translate-x-2/4 md:-translate-x-2/4"
+        style="animation:mouse 3s cubic-bezier(.165,.84,.44,1) infinite alternate;transform-origin:center center"
+      >
+        <path
+          d="M12 5C11.4477 5 11 5.44772 11 6V10C11 10.5523 11.4477 11 12 11C12.5523 11 13 10.5523 13 10V6C13 5.44772 12.5523 5 12 5Z"
+          fill="#848b9e"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M4 8C4 3.58172 7.58172 0 12 0C16.4183 0 20 3.58172 20 8V16C20 20.4183 16.4183 24 12 24C7.58172 24 4 20.4183 4 16V8ZM18 8V16C18 19.3137 15.3137 22 12 22C8.68629 22 6 19.3137 6 16V8C6 4.68629 8.68629 2 12 2C15.3137 2 18 4.68629 18 8Z"
+          fill="#848b9e"
+        />
+      </svg> -->
     </div>
     <Dialog class="relative z-[20]" :open="isOpen" @close="setIsOpen">
       <DialogOverlay class="fixed inset-0 bg-black opacity-30 z-[-1]" />

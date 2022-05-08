@@ -212,10 +212,15 @@
             <div class="grid grid-cols-12">
               <TabList class="col-span-12 lg:col-span-2">
                 <div class="grid grid-cols-2 lg:grid-cols-1 gap-20">
+                  <!-- bardega -->
                   <Tab v-slot="{ selected }" class="">
                     <button
-                      class="w-full text-gray-dark font-roboto font-700 capitalize py-20 px-10 rounded-[12px] transition duration-500 ease-in-out hover:bg-[#00FF9D42] flex justify-between items-center"
-                      :class="[selected ? 'bg-[#00FF9D42]' : 'bg-gray-light']"
+                      class="w-full text-gray-dark font-roboto font-700 capitalize py-20 px-10 border-2 border-white rounded-[12px] transition duration-500 ease-in-out hover:bg-white hover:border-gray-light flex justify-between items-center"
+                      :class="[
+                        selected
+                          ? 'bg-gray-light hover:bg-gray-light'
+                          : 'bg-white',
+                      ]"
                     >
                       <span class="text-left">
                         Bardega
@@ -225,10 +230,15 @@
                       </span>
                     </button>
                   </Tab>
+                  <!-- scripps -->
                   <Tab v-slot="{ selected }" class="">
                     <button
-                      class="w-full text-gray-dark font-roboto font-700 capitalize py-20 px-10 rounded-[12px] transition duration-500 ease-in-out hover:bg-[#00FF9D42] flex justify-between items-center"
-                      :class="[selected ? 'bg-[#00FF9D42]' : 'bg-gray-light']"
+                      class="w-full text-gray-dark font-roboto font-700 capitalize py-20 px-10 border-2 border-white rounded-[12px] transition duration-500 ease-in-out hover:bg-white hover:border-gray-light flex justify-between items-center"
+                      :class="[
+                        selected
+                          ? 'bg-gray-light hover:bg-gray-light'
+                          : 'bg-white',
+                      ]"
                     >
                       <span class="text-left">
                         SCRIPPS
@@ -238,16 +248,39 @@
                       </span>
                     </button>
                   </Tab>
+                  <!-- k10 -->
                   <Tab v-slot="{ selected }" class="">
                     <button
-                      class="w-full text-gray-dark font-roboto font-700 capitalize py-20 px-10 rounded-[12px] transition duration-500 ease-in-out hover:bg-[#00FF9D42] flex justify-between items-center"
-                      :class="[selected ? 'bg-[#00FF9D42]' : 'bg-gray-light']"
+                      class="w-full text-gray-dark font-roboto font-700 capitalize py-20 px-10 border-2 border-white rounded-[12px] transition duration-500 ease-in-out hover:bg-white hover:border-gray-light flex justify-between items-center"
+                      :class="[
+                        selected
+                          ? 'bg-gray-light hover:bg-gray-light'
+                          : 'bg-white',
+                      ]"
                     >
                       <span class="text-left">
                         Keystone 10
                       </span>
                       <span>
                         🌳
+                      </span>
+                    </button>
+                  </Tab>
+                  <!-- brp -->
+                  <Tab v-slot="{ selected }" class="">
+                    <button
+                      class="w-full text-gray-dark font-roboto font-700 capitalize py-20 px-10 border-2 border-white rounded-[12px] transition duration-500 ease-in-out hover:bg-white hover:border-gray-light flex justify-between items-center"
+                      :class="[
+                        selected
+                          ? 'bg-gray-light hover:bg-gray-light'
+                          : 'bg-white',
+                      ]"
+                    >
+                      <span class="text-left">
+                        BRP
+                      </span>
+                      <span>
+                        🎥
                       </span>
                     </button>
                   </Tab>
@@ -337,11 +370,7 @@
                     <ul
                       class="font-roboto font-400 text-gray-default text-12 mt-12"
                     >
-                      <li>Subscription based e-commerce.</li>
-                      <li class="mt-6">
-                        Custom blocks and templates creation for client to
-                        easily edit/maintain the online store.
-                      </li>
+                      <li>n/a</li>
                     </ul>
                     <p
                       class="font-roboto font-600 text-gray-default text-14 mt-20"
@@ -361,7 +390,7 @@
                     <p
                       class="font-roboto font-400 text-gray-default text-12 mt-12"
                     >
-                      Shopify Liquid
+                      Twig / VueJS / TailwindCSS / WordPress
                     </p>
                     <p
                       class="font-roboto font-600 text-gray-default text-14 mt-20"
@@ -379,12 +408,7 @@
                   </div>
                   <div class="col-span-12 md:col-start-4 md:col-span-9">
                     <p class="font-roboto font-400 text-gray-default text-14">
-                      Charlie led this custom e-commerce web project from
-                      development perspective. He assisted Bardega to transition
-                      from wocommerce to Shopify, which involved plugin
-                      integrations to match current and exhance features
-                      requested from client. Also, Charlie was responsible for
-                      coding the new website redesign.
+                      Charlie led this custom microsite for SCRIPPS College.
                     </p>
                   </div>
                 </TabPanel>
@@ -403,10 +427,9 @@
                     <ul
                       class="font-roboto font-400 text-gray-default text-12 mt-12"
                     >
-                      <li>Subscription based e-commerce.</li>
+                      <li>Tree Counter</li>
                       <li class="mt-6">
-                        Custom blocks and templates creation for client to
-                        easily edit/maintain the online store.
+                        Display content based on user's location (PA County)
                       </li>
                     </ul>
                     <p
@@ -417,7 +440,7 @@
                     <p
                       class="font-roboto font-400 text-gray-default text-12 mt-12"
                     >
-                      Lead Web Developer
+                      Lead Front-End Web Developer
                     </p>
                     <p
                       class="font-roboto font-600 text-gray-default text-14 mt-20"
@@ -427,7 +450,7 @@
                     <p
                       class="font-roboto font-400 text-gray-default text-12 mt-12"
                     >
-                      Shopify Liquid
+                      Twig / VueJS / TailwindCSS / WordPress
                     </p>
                     <p
                       class="font-roboto font-600 text-gray-default text-14 mt-20"
@@ -445,12 +468,69 @@
                   </div>
                   <div class="col-span-12 md:col-start-4 md:col-span-9">
                     <p class="font-roboto font-400 text-gray-default text-14">
-                      Charlie led this custom e-commerce web project from
-                      development perspective. He assisted Bardega to transition
-                      from wocommerce to Shopify, which involved plugin
-                      integrations to match current and exhance features
-                      requested from client. Also, Charlie was responsible for
-                      coding the new website redesign.
+                      Charlie led this custom site for Keystone 10 marketing
+                      efforts to plan 10M trees by 2025.
+                    </p>
+                  </div>
+                </TabPanel>
+                <!-- brp -->
+                <TabPanel class="grid grid-cols-12 gap-32">
+                  <img
+                    class="col-span-12 w-[150px]"
+                    :src="`${publicPath}img/brp-logo.svg`"
+                    :srcset="`${publicPath}img/brp-logo.svg`"
+                    alt=""
+                  />
+                  <div class="col-span-12 md:col-span-3">
+                    <p class="font-roboto font-600 text-gray-default text-14">
+                      Features
+                    </p>
+                    <ul
+                      class="font-roboto font-400 text-gray-default text-12 mt-12"
+                    >
+                      <li>Tree Counter</li>
+                      <li class="mt-6">
+                        Display content based on user's location (PA County)
+                      </li>
+                    </ul>
+                    <p
+                      class="font-roboto font-600 text-gray-default text-14 mt-20"
+                    >
+                      Role
+                    </p>
+                    <p
+                      class="font-roboto font-400 text-gray-default text-12 mt-12"
+                    >
+                      Lead Front-End Web Developer
+                    </p>
+                    <p
+                      class="font-roboto font-600 text-gray-default text-14 mt-20"
+                    >
+                      Tech Stack
+                    </p>
+                    <p
+                      class="font-roboto font-400 text-gray-default text-12 mt-12"
+                    >
+                      Twig / VueJS / TailwindCSS / WordPress
+                    </p>
+                    <p
+                      class="font-roboto font-600 text-gray-default text-14 mt-20"
+                    >
+                      Visit
+                    </p>
+                    <a
+                      class="font-roboto font-400 text-grape text-12 mt-12"
+                      href="/#brp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      click to view project
+                    </a>
+                  </div>
+                  <div class="col-span-12 md:col-start-4 md:col-span-9">
+                    <p class="font-roboto font-400 text-gray-default text-14">
+                      Charlie led this custom site for Keystone 10 marketing
+                      efforts to plan 10M trees by 2025.
                     </p>
                   </div>
                 </TabPanel>
@@ -458,7 +538,7 @@
             </div>
           </TabGroup>
         </div>
-        <div class="flex md:justify-center items-center gap-x-16 mt-32">
+        <!-- <div class="flex md:justify-center items-center gap-x-16 mt-32">
           <vs-button
             class="w-[fit-content]"
             @click="
@@ -472,7 +552,7 @@
             type="border"
             >Upcoming Project AR Laroma</vs-button
           >
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

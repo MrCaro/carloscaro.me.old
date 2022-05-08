@@ -7,6 +7,7 @@
       <Work />
       <Skills />
       <Collab />
+      <Wall />
       <Footer />
     </main>
     <!-- <cursor-fx  /> -->
@@ -36,6 +37,7 @@ import About from "@/components/About.vue";
 import Work from "@/components/Work.vue";
 import Skills from "@/components/Skills.vue";
 import Collab from "@/components/Collab.vue";
+import Wall from "@/components/Wall.vue";
 import Footer from "@/components/Footer.vue";
 import CustomCursor from "@/components/CustomCursor.vue";
 
@@ -48,31 +50,71 @@ export default {
     Work,
     Skills,
     Collab,
+    Wall,
     Footer,
     CustomCursor,
   },
   mounted: function() {
-    //headshots
-    let headshots = document.getElementsByClassName("headshot");
-    console.log(headshots);
-    let images = [].map.call(headshots, (headshot) => {
-      ScrollTrigger.matchMedia({
-        "(min-width: 768px)": function() {
-          gsap.to(headshot, {
-            scrollTrigger: {
-              trigger: ".headshot",
-              start: "top center",
-              end: "bottom center",
-              scrub: 2,
-              // markers: true,
-            },
-            y: 50,
-            duration: 3,
-          });
-        },
-      });
+    //hero
+    ScrollTrigger.matchMedia({
+      "(min-width: 0px)": function() {
+        gsap.to(document.querySelector(".hero--img"), {
+          scrollTrigger: {
+            trigger: ".hero--img",
+            start: "top",
+            end: "bottom center",
+            scrub: 2,
+            // markers: true,
+          },
+          y: 20,
+          duration: 3,
+        });
+      },
     });
-    console.log(images);
+    ScrollTrigger.matchMedia({
+      "(min-width: 768px)": function() {
+        gsap.to(document.querySelector(".hero--title-top"), {
+          scrollTrigger: {
+            trigger: ".hero--img",
+            start: "top",
+            end: "bottom center",
+            scrub: 2,
+          },
+          x: 60,
+          duration: 4,
+        });
+      },
+    });
+    ScrollTrigger.matchMedia({
+      "(min-width: 768px)": function() {
+        gsap.to(document.querySelector(".hero--title-bottom"), {
+          scrollTrigger: {
+            trigger: ".hero--img",
+            start: "top",
+            end: "bottom center",
+            scrub: 2,
+          },
+          x: -60,
+          duration: 4,
+        });
+      },
+    });
+    //about
+    ScrollTrigger.matchMedia({
+      "(min-width: 0px)": function() {
+        gsap.to(document.querySelector(".headshot"), {
+          scrollTrigger: {
+            trigger: ".headshot",
+            start: "top center",
+            end: "bottom center",
+            scrub: 2,
+            // markers: true,
+          },
+          y: 50,
+          duration: 3,
+        });
+      },
+    });
   },
 };
 </script>
