@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-gray-light pt-52 pb-60">
+  <section class="test relative bg-gray-light pt-52 pb-60">
     <!-- <img
       src="https://source.unsplash.com/random"
       class="absolute top-0 left-0 object-cover h-full w-full"
@@ -54,7 +54,7 @@
             id="GlassBox1"
             class="group absolute left-[-3rem] top-[9rem] flex justify-center items-center rounded-xl bg-white cursor-pointer"
             style="box-shadow: 0 0 5rem 0 rgba(0, 0, 0, .3)"
-            @click="setIsOpen(true)"
+            @click="setIsOpen(true), (playing = !playing)"
           >
             <div
               class="relative h-auto w-auto flex items-center gap-16 rounded-xl transition-transform ease-out duration-200 delay-200 group-hover:scale-75"
@@ -125,26 +125,28 @@
         />
       </svg> -->
     </div>
-    <Dialog class="relative z-[20]" :open="isOpen" @close="setIsOpen">
+    <Dialog class="relative z-[20]" :open="isOpen" :unmount="false">
       <DialogOverlay class="fixed inset-0 bg-black opacity-30 z-[-1]" />
-
       <div class="fixed inset-0 flex items-center justify-center p-4">
         <DialogPanel
-          class="flex flex-col gap-8 w-[fit-content] h-[fit-content] bg-white py-32 px-64 rounded"
+          class="flex flex-col gap-8 w-[fit-content] h-[fit-content] bg-white py-32 px-32 md:px-64 rounded w-[80vw] md:w-[800px]"
         >
-          <DialogTitle class="font-roboto font-400 text-gray-default">
-            "cool" video coming soon 🎥
+          <DialogTitle
+            class="font-roboto font-400 text-gray-default text-center"
+          >
+            Hello there stranger and welcome 👋
           </DialogTitle>
           <DialogDescription>
-            <!-- <video
-          class="video-plyr-component w-[200px] h-auto"
-          src="https://res.cloudinary.com/dbyzfcnpg/video/upload/v1648336568/vr_escape_room.mp4"
-          :poster="`${publicPath}img/vr-escape-room-poster.jpg`"
-        ></video> -->
+            <video class="plyr-intro h-auto rounded">
+              <source
+                src="https://res.cloudinary.com/dbyzfcnpg/video/upload/v1652491432/charlie_intro_lbccau.mp4"
+                type="video/mp4"
+              />
+            </video>
           </DialogDescription>
           <button
             class="bg-grape rounded p-6 text-14 text-white font-roboto font-700 capitalize border-2 border-grape transition duration-500 ease-in-out hover:scale-105 hover:bg-white hover:text-grape"
-            @click="setIsOpen(false)"
+            @click="setIsOpen(false), (playing = !playing)"
           >
             close modal
           </button>
@@ -158,6 +160,7 @@
 <script type="text/javascript">
 import {
   Dialog,
+  DialogPanel,
   DialogOverlay,
   DialogTitle,
   DialogDescription,
@@ -169,6 +172,7 @@ export default {
   name: "MainHero",
   components: {
     Dialog,
+    DialogPanel,
     DialogOverlay,
     DialogTitle,
     DialogDescription,
@@ -177,24 +181,30 @@ export default {
     return {
       publicPath: process.env.BASE_URL,
       isOpen: false,
+      plyr: null,
+      playing: false,
     };
   },
   mounted() {
-    document.querySelectorAll(".video-plyr-component").forEach((el) => {
-      new Plyr(el, {
-        autoplay: true,
-        muted: false,
-        iconPrefix: "plyr",
-        // controls: false
-        // iconUrl: '/wp-content/themes/scripps/src/assets/icons/plyr.svg'
-      });
+    this.plyr = document.querySelector(".plyr-intro");
+    new Plyr(this.plyr, {
+      autoplay: false,
+      iconPrefix: "plyr",
     });
+  },
+  watch: {
+    playing: function(value) {
+      console.log(value);
+      if (value) {
+        this.plyr.play();
+        this.plyr.volume = 1;
+      } else {
+        this.plyr.pause();
+      }
+    },
   },
   methods: {
     setIsOpen: function(value) {
-      // alert("clicked");
-      console.log(value);
-      console.log(this.isOpen);
       this.isOpen = value;
     },
   },

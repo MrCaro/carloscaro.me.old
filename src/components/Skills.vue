@@ -16,10 +16,10 @@
           stack.
         </p>
       </div>
-      <div class="grid grid-cols-3">
+      <div class="flex flex-wrap gap-x-88">
         <div class="">
           <p class="font-univia text-12 text-gray-dark leading-tight mt-20">
-            Web Development / Design
+            Web Dev
           </p>
           <ul class="font-roboto font-400 text-gray-default text-12">
             <li>TailwindCSS</li>
