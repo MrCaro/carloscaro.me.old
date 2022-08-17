@@ -1,10 +1,11 @@
 <template>
   <section class="test relative bg-gray-light pt-52 pb-60">
-    <!-- <img
-      src="https://source.unsplash.com/random"
-      class="absolute top-0 left-0 object-cover h-full w-full"
+    <img
+      :src="`${publicPath}img/gradient-noise.jpeg`"
+      :srcset="`${publicPath}img/gradient-noise.jpeg`"
+      class="absolute bottom-0 h-full w-full"
       alt=""
-    /> -->
+    />
     <div
       class="relative container grid grid-col-1 md:grid-cols-2 h-full px-16 gap-y-48"
     >
@@ -15,7 +16,7 @@
           </span>
           <br />
           <span
-            class="text-gray-light inline-block hero--title-bottom"
+            class="text-gray-light inline-block hero--title-bottom mix-blend-color-burn"
             style="text-shadow: -1px -1px 0 #b928e5, 1px -1px 0 #b928e5, -1px 1px 0 #b928e5, 1px 1px 0 #b928e5;"
           >
             Developer.
@@ -104,26 +105,6 @@
       <div
         class="absolute h-192 border-l-2 border-gray-[#848b9e] right-0 md:right-[unset] bottom-0 md:left-0 mr-60 md:mr-0 mb-[-180px] md:ml-160"
       ></div>
-      <!-- <svg
-        width="20"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="#848b9e"
-        xmlns="http://www.w3.org/2000/svg"
-        class="absolute right-0 md:right-[unset] bottom-0 md:left-0 mr-60 md:mr-0 mb-[-180px] md:ml-160 translate-x-2/4 md:-translate-x-2/4"
-        style="animation:mouse 3s cubic-bezier(.165,.84,.44,1) infinite alternate;transform-origin:center center"
-      >
-        <path
-          d="M12 5C11.4477 5 11 5.44772 11 6V10C11 10.5523 11.4477 11 12 11C12.5523 11 13 10.5523 13 10V6C13 5.44772 12.5523 5 12 5Z"
-          fill="#848b9e"
-        />
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M4 8C4 3.58172 7.58172 0 12 0C16.4183 0 20 3.58172 20 8V16C20 20.4183 16.4183 24 12 24C7.58172 24 4 20.4183 4 16V8ZM18 8V16C18 19.3137 15.3137 22 12 22C8.68629 22 6 19.3137 6 16V8C6 4.68629 8.68629 2 12 2C15.3137 2 18 4.68629 18 8Z"
-          fill="#848b9e"
-        />
-      </svg> -->
     </div>
     <Dialog class="relative z-[20]" :open="isOpen" :unmount="false">
       <DialogOverlay class="fixed inset-0 bg-black opacity-30 z-[-1]" />
@@ -152,7 +133,6 @@
           </button>
         </DialogPanel>
       </div>
-      <!-- <button @click="setIsOpen(false)">Cancel</button> -->
     </Dialog>
   </section>
 </template>

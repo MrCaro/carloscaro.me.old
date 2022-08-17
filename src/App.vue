@@ -25,12 +25,8 @@
 </template>
 
 <script type="text/javascript">
-// import { CursorFx } from '@luxdamore/vue-cursor-fx';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
-
 import NavBar from "@/components/NavBar.vue";
 import MainHero from "@/components/MainHero.vue";
 import About from "@/components/About.vue";
@@ -40,6 +36,8 @@ import Collab from "@/components/Collab.vue";
 import Wall from "@/components/Wall.vue";
 import Footer from "@/components/Footer.vue";
 import CustomCursor from "@/components/CustomCursor.vue";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   components: {

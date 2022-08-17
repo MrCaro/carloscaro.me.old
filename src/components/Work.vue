@@ -402,7 +402,7 @@
                     </p>
                     <a
                       class="font-roboto font-400 text-grape text-12 mt-12"
-                      href="/#brp"
+                      href="https://brpentertainment.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
