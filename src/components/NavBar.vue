@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white py-40">
+  <header class="bg-transparent py-16 backdrop-blur sticky top-0 z-10">
     <!-- desktop -->
     <div class="container px-16">
       <nav>
@@ -54,21 +54,6 @@
           </a>
         </li>
       </ul>
-      <!-- <Menu>
-                <MenuButton>More</MenuButton>
-                <MenuItems>
-                    <MenuItem 
-                        v-for="navigation_item in navigation_items"
-                        :key="navigation_item.title"
-                    >
-                        <a 
-                            class="font-roboto font-700 text-14 text-gray-default capitalize transition duration-500 ease-in-out hover:text-grape"
-                            v-text="navigation_item.title"
-                            :href="`${navigation_item.url}`">
-                        </a>
-                    </MenuItem>
-                </MenuItems>
-            </Menu> -->
     </div>
   </header>
 </template>
@@ -78,10 +63,6 @@ import MainCTA from "@/components/MainCTA.vue";
 export default {
   name: "NavBar",
   components: {
-    // Menu,
-    // MenuButton,
-    // MenuItems,
-    // MenuItem,
     MainCTA,
   },
   data() {

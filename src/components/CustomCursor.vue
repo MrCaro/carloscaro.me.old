@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-cursor">
+  <div class="custom-cursor z-20">
     <div class="custom-cursor__circle" :style="circleStyle" ref="customCursorCircle"></div>
     <div class="custom-cursor__dot" :style="dotStyle" ref="customCursorDot"></div>
   </div>

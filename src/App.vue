@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<NavBar />
-		<main class="grid gap-y-96 md:gap-y-192 overflow-x-hidden">
+		<main class="grid gap-y-96 md:gap-y-192 overflow-x-hidden relative z-0">
 			<MainHero />
 			<About />
 			<Work />

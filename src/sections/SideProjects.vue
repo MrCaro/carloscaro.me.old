@@ -1,6 +1,6 @@
 <template>
 	<div class="container grid grid-col-1 px-16 gap-y-48">
-		<div class="grid grid grid-col-1 gap-y-20">
+		<div class="flex flex-col gap-y-20">
 			<h2
 				class="font-univia text-40 text-gray-dark leading-tight capitalize md:text-center"
 			>
@@ -84,7 +84,6 @@ export default {
 		};
 	},
 	mounted() {
-		return console.log("side projects template loaded");
 	},
 };
 </script>
