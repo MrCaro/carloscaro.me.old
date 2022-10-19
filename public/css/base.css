@@ -111,3 +111,11 @@ html {
     transform: rotate(360deg);
   }
 }
+
+.title--gradient {
+  background: linear-gradient(314deg, rgb(104 145 238), #f202f2);
+  background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

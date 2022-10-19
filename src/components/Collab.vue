@@ -1,14 +1,16 @@
 <template>
   <section class="">
-    <div
-      class="relative container grid grid-col-1 h-full px-16 gap-y-20 text-center my-32 md:my-64"
-    >
-      <h2 class="font-univia text-40 text-gray-dark leading-tight">
-        👨‍💻 Collab Maybe?
-      </h2>
+    <div class="relative container grid grid-col-1 h-full px-16 gap-y-20 text-center my-32 md:my-64">
+      <div 
+          data-aos="fade-up"
+          data-aos-offset="-300"
+          data-aos-anchor-placement="center-center"
+        >
+        <h2 class="font-univia text-40 text-gray-dark leading-tight">
+          👨‍💻 Collab Maybe?
+        </h2>
+      </div>
       <p class="font-roboto font-400 text-gray-default text-14">
-        If you have any questions about how Charlie can assist you or maybe you
-        just want to connect. <br />
         Don't be shy! I'm sure Charlie is looking forward to chat.
       </p>
       <div class="w-[fit-content] m-auto">

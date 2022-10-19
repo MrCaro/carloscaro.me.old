@@ -1,11 +1,15 @@
 <template>
   <section class="">
-    <div
-      class="container grid grid-col-1 h-full px-16 gap-y-20 text-center my-32 md:my-64"
-    >
-      <h2 class="font-univia text-40 text-gray-dark leading-tight">
-        Wall Of Love 💜
-      </h2>
+    <div class="container grid grid-col-1 h-full px-16 gap-y-20 text-center my-32 md:my-64">
+      <div 
+          data-aos="fade-up"
+          data-aos-offset="-300"
+          data-aos-anchor-placement="center-center"
+        >
+        <h2 class="font-univia text-40 text-gray-dark leading-tight">
+          Wall Of Love 💜
+        </h2>
+      </div>
       <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         <!-- chelsea -->
         <div

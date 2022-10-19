@@ -2,18 +2,21 @@
 	<section id="work" class="">
 		<div class="container grid grid-col-1 h-full px-16">
 			<div class="flex flex-col gap-y-20">
-				<h2
-					class="font-univia text-40 text-gray-dark leading-tight capitalize md:text-center"
-				>
-					recent
-					<span
-						class="text-white"
-						style="text-shadow: -1px -1px 0 #b928e5, 1px -1px 0 #b928e5, -1px 1px 0 #b928e5, 1px 1px 0 #b928e5;"
+					<div 
+						data-aos="fade-up"
+						data-aos-offset="-300"
+						data-aos-anchor-placement="center-center"
 					>
-						Work
-					</span>
-					on the web
-				</h2>
+					<h2
+						class="font-univia text-40 text-gray-dark leading-tight capitalize md:text-center"
+					>
+						recent
+						<span class="title--gradient">
+							Work
+						</span>
+						on the web
+					</h2>
+				</div>
 				<div class="container mt-60">
 					<TabGroup>
 						<div class="grid grid-cols-12">
@@ -347,7 +350,7 @@
 												partner role
 											</li>
 											<li class="mt-6">
-												contact pages ids
+												contact pages ids to translate from Gravity Forms plugin
 											</li>
 											<li class="mt-6">
 												tree animation
@@ -414,6 +417,21 @@
 											Charlie led this web project from start to finish. Client
 											was looking for a complete website redesign.
 										</p>
+										<p
+											class="font-roboto font-600 text-gray-default text-14 mt-20"
+										>
+											Challenges
+										</p>
+										<ul
+											class="font-roboto font-400 text-gray-default text-14 mt-12"
+										>
+											<li>
+												video + audio modals
+											</li>
+											<li class="mt-6">
+												contact pages ids to translate from Gravity Forms plugin
+											</li>
+										</ul>
 									</div>
 								</TabPanel>
 							</TabPanels>

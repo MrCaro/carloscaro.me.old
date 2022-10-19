@@ -26,6 +26,8 @@
 </template>
 
 <script type="text/javascript">
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
@@ -57,6 +59,7 @@ export default {
 		Work,
 	},
 	mounted: function() {
+		AOS.init();
 		//hero
 		ScrollTrigger.matchMedia({
 			"(min-width: 0px)": function() {

@@ -15,10 +15,7 @@
             Front-End
           </span>
           <br />
-          <span
-            class="text-gray-light inline-block hero--title-bottom mix-blend-color-burn"
-            style="text-shadow: -1px -1px 0 #b928e5, 1px -1px 0 #b928e5, -1px 1px 0 #b928e5, 1px 1px 0 #b928e5;"
-          >
+          <span class="inline-block hero--title-bottom title--gradient">
             Developer.
           </span>
         </h1>
