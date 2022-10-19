@@ -69,6 +69,7 @@
 					<ul class="flex font-roboto font-400 text-gray-default text-12 mt-4">
 						<li class="mr-16">Git</li>
 						<li class="mr-16">Notion</li>
+						<li class="mr-16">Vercel</li>
 					</ul>
 				</div>
 			</div>
