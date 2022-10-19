@@ -51,16 +51,15 @@
           <a class="text-gray-dark" href="https://tasty.studio/" target="_blank" rel="noopener noreferrer">Tasty Studio</a
           >. Before moving to Orlando, Charlie spent seven years in Miami, FL
           where he got his Bachelors in Computer Science and Business Management
-          from St. Thomas University. Charlie is responsible to bring digital
+          from St. Thomas University. Charlie is responsible for bringing digital
           experiences to the www. which can range from e-commerce, marketing
-          landing pages, or overall web projects. At Tasty Studio Charlie not
+          landing pages, SPA or overall web projects. At Tasty Studio Charlie not
           only craft complex web solutions but also takes part of business
-          development in departments like sales, project management and overall
-          business innovation.
+          development in departments like sales & optimization/innovations.
         </p>
         <p class="font-roboto font-400 text-gray-default text-14">
-          Currently, Charlie is a full time student at the University of Central
-          Florida where he is getting his Master's degree in Computer Science
+          Currently, Charlie is a full time student at University of Central
+          Florida where he is getting a Master's degree in Computer Science
           with a specialization in Mixed Reality Development.
         </p>
         <ul class="font-roboto font-400 text-gray-default text-14">
