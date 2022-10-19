@@ -58,13 +58,6 @@
           development in departments like sales, project management and overall
           business innovation.
         </p>
-        <!-- <p class="font-roboto font-400 text-gray-default text-14">
-          While not coding or assisting clients with tech you can find Charlie
-          lifting weights, playing soccer, or geeking about Batman, Star Wars,
-          Harry Potter, Spiderman... I think you get the point. Aside from being
-          a full-time nerd! Charlie also likes to spend his time with Family and
-          Friends.
-        </p> -->
         <p class="font-roboto font-400 text-gray-default text-14">
           Currently, Charlie is a full time student at the University of Central
           Florida where he is getting his Master's degree in Computer Science
@@ -72,17 +65,11 @@
         </p>
         <ul class="font-roboto font-400 text-gray-default text-14">
           <li>
-            Hometown / Caracas, Venezuela
-          </li>
-          <li>
-            <span>Palette / </span
+            <span>Colors / </span
             ><span class="inline-block h-14 w-14 rounded-full bg-grape"></span>
             <span
               class="inline-block h-14 w-14 rounded-full -ml-8 bg-[#F202F2]"
             ></span>
-          </li>
-          <li>
-            Teams / Chelsea FC, NETS, Marlins & Red Sox
           </li>
           <li>
             Hobbies / 🎮 🏋️‍♀️ 🏃‍♂️ ⚽️ 📚
