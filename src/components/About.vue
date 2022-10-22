@@ -75,12 +75,6 @@
           </li>
         </ul>
       </div>
-      <!-- <img
-        class="absolute rotate-[270deg] opacity-[0.1] -z-1"
-        :src="`${publicPath}img/charlie-signature.png`"
-        :srcset="`${publicPath}img/charlie-signature.png`"
-        alt=""
-      /> -->
     </div>
   </section>
 </template>
