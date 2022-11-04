@@ -17,33 +17,59 @@
 				on the project to learn more or preview a demo.
 			</p>
 		</div>
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-32">
 				<div>
-				<div class="relative w-full pb-[56.25%] overflow-hidden rounded">
-					<a
-						href="https://tic-tac-toe-six-pink.vercel.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="group"
-					>
-						<img
-							:src="`${publicPath}img/ticTacToe.gif`"
-							:srcset="`${publicPath}img/ticTacToe.gif`"
-							class="w-full h-full absolute object-cover group-hover:scale-110 transition-scale duration-200"
-							alt=""
-						/>
-						<span
-							class="bg-grape text-white font-roboto bg-grape rounded absolute top-16 right-16 py-4 px-16"
-						>
-							React + Liveblocks
-						</span>
-					</a>
-				</div>
-				<p class="font-roboto font-400 text-gray-default mt-32 text-14">
-					A Tic Tac Toe game built with React and Liveblocks. The Liveblocks integrations allows 
-					a multiplayer experience and therefore a live state of the game itself. Added UX queues so 
-					players can tell if another player is wihtin session. 
-				</p>
+          <div class="relative w-full pb-[56.25%] overflow-hidden rounded">
+            <a
+              href="https://tic-tac-toe-six-pink.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group"
+            >
+              <img
+                :src="`${publicPath}img/ticTacToe.gif`"
+                :srcset="`${publicPath}img/ticTacToe.gif`"
+                class="w-full h-full absolute object-cover group-hover:scale-110 transition-scale duration-200"
+                alt=""
+              />
+              <span
+                class="bg-grape text-white font-roboto bg-grape rounded absolute top-16 right-16 py-4 px-16"
+              >
+                React + Liveblocks
+              </span>
+            </a>
+          </div>
+          <p class="font-roboto font-400 text-gray-default mt-32 text-14">
+            A Tic Tac Toe game built with React and Liveblocks. The Liveblocks integrations allows 
+            a multiplayer experience and therefore a live state of the game itself. Added UX queues so 
+            players can tell if another player is wihtin session. 
+          </p>
+			</div>
+      <div>
+          <div class="relative w-full pb-[56.25%] overflow-hidden rounded">
+            <a
+              href="https://nintendo-news.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group"
+            >
+              <img
+                :src="`${publicPath}img/nintendoNews.gif`"
+                :srcset="`${publicPath}img/nintendoNews.gif`"
+                class="w-full h-full absolute object-cover group-hover:scale-110 transition-scale duration-200"
+                alt=""
+              />
+              <span
+                class="bg-grape text-white font-roboto bg-grape rounded absolute top-16 right-16 py-4 px-16"
+              >
+                React + TypeScript + RestAPI + GSAP
+              </span>
+            </a>
+          </div>
+          <p class="font-roboto font-400 text-gray-default mt-32 text-14">
+            A Nintendo Landing Page that displays the latest news about games. 
+            The app fetches data from <a href="https://rapidapi.com/joelmenor03/api/nintendo-news1/">Nintendo News RapidAPI</a>.
+          </p>
 			</div>
 			<div>
 				<div class="relative w-full pb-[56.25%] overflow-hidden rounded">
@@ -88,7 +114,7 @@
 						<span
 							class="bg-grape text-white font-roboto bg-grape rounded absolute top-16 right-16 py-4 px-16"
 						>
-							VR
+							Unity + SteamVR
 						</span>
 					</a>
 				</div>
